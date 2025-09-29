@@ -56,7 +56,7 @@ _cached_csv: Dict[str, List[List[str]]] = {}
 
 def _load_csv(path: str) -> List[List[str]]:
 	if path not in _cached_csv:
-		ref = files("iso18245") / "data" / path
+		ref = files("iso18245_uz") / "data" / path
 		with ref.open("r") as f:
 			reader = csv.reader(f)
 			_cached_csv[path] = list(reader)[1:]

@@ -2,7 +2,7 @@ import pytest
 import os 
 import sys 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import iso18245 as m
+import src.iso18245_uz as m
 
 
 def test_validate_mcc_valid():
