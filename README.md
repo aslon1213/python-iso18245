@@ -1,6 +1,6 @@
-# python-iso18245
+# python-iso18245-uz
 
-A Python implementation of the ISO 18245 Merchant Category Codes database.
+A Python implementation of the ISO 18245 Merchant Category Codes database. This is fork package, mcc descriptions translated to Uzbek and Russian Languages using googletranslate. For Original repo please refer to [https://github.com/jleclanche/python-iso18245](https://github.com/jleclanche/python-iso18245).
 
 ## Installation
 
