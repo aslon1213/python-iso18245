@@ -178,7 +178,6 @@ def get_mcc(mcc: str) -> MCC:
 def get_mcc_range(mcc: str) -> MCCRange:
 	mcc_as_num = validate_mcc(mcc)
 	range_data = _load_csv("iso18245_ranges_translated.csv")
-	print(range_data[0])
 	for range_start, range_end, description, description_uz, description_ru in range_data:
 		start_num, end_num = int(range_start), int(range_end)
 		if start_num <= mcc_as_num <= end_num:

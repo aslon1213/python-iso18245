@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "iso18245_uz"
-version = "1.4.2"
+version = "1.4.4"
 description = "The ISO 18245 Merchant Category Codes database with descriptions translated from English to Russian and Uzbek"
-authors = ["Jerome Leclanche <jerome@leclan.ch>"]
+authors = ["Jerome Leclanche <jerome@leclan.ch>", "Aslon Khamidov <hamidovaslon1@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/jleclanche/python-iso18245"
+repository = "https://github.com/aslon1213/python-iso18245"
 license = "MIT"
 classifiers = [
 	"Development Status :: 5 - Production/Stable",
